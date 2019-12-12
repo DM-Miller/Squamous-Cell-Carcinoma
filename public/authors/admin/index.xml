@@ -1,258 +1,2320 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Squamous Cell Carcinoma</title>
+    <title>The Miller Lab</title>
     <link>/authors/admin/</link>
       <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
-    <description>Squamous Cell Carcinoma</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <description>The Miller Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 24 Jan 2020 15:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
-      <title>Squamous Cell Carcinoma</title>
+      <url>/img/MLab_logo_5.png</url>
+      <title>The Miller Lab</title>
       <link>/authors/admin/</link>
     </image>
     
     <item>
-      <title>An example preprint / working paper</title>
-      <link>/publication/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/preprint/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>Melanoma - Pathogenesis, Clinical Features, Work Up &amp; Management</title>
+      <link>/talk/gw_derm_resident_lecture_melanoma-01-24-20/</link>
+      <pubDate>Fri, 24 Jan 2020 15:00:00 +0000</pubDate>
+      <guid>/talk/gw_derm_resident_lecture_melanoma-01-24-20/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Display Jupyter Notebooks with Academic</title>
-      <link>/post/jupyter/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/jupyter/</guid>
-      <description>
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
-Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;Welcome to Academic!
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
-
-&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
-
-&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-jupyter lab index.ipynb
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
-
-&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
-
-&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;---
-title: My post&#39;s title
-date: 2019-09-01
-
-# Put any other Academic metadata here...
----
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Edit the metadata of your post, using the &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
-
-&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
-
-&lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
-
-&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34; target=&#34;_blank&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
-</description>
+      <title>Therapeutic Updates in Melanoma - IO for Earlier Stage Disease</title>
+      <link>/talk/odac_melanoma-1-18-20/</link>
+      <pubDate>Sat, 18 Jan 2020 11:00:00 +0000</pubDate>
+      <guid>/talk/odac_melanoma-1-18-20/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Academic: the website builder for Hugo</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
+      <title>Merkel Cell Carcinoma- Current Concepts in Diagnosis and Management</title>
+      <link>/talk/odac_mcc-1-17-20/</link>
+      <pubDate>Fri, 17 Jan 2020 15:35:00 +0000</pubDate>
+      <guid>/talk/odac_mcc-1-17-20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Evolving Landscape of Regulatory Medicine in Cutaneous Oncology</title>
+      <link>/talk/cumc_derm_lecture_regulatory_medicine-12-13-19/</link>
+      <pubDate>Fri, 13 Dec 2019 13:00:00 +0000</pubDate>
+      <guid>/talk/cumc_derm_lecture_regulatory_medicine-12-13-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Melanoma - Pathogenesis, Clinical Features, Diagnosis and Management</title>
+      <link>/talk/cumc_derm_lecture_melanoma-12-13-19/</link>
+      <pubDate>Fri, 13 Dec 2019 09:00:00 +0000</pubDate>
+      <guid>/talk/cumc_derm_lecture_melanoma-12-13-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Melanoma - Pathogenesis, Diagnosis and Work Up</title>
+      <link>/slides/cumc_melanoma_12_13_19-final-ppt/</link>
+      <pubDate>Wed, 11 Dec 2019 09:00:00 +0000</pubDate>
+      <guid>/slides/cumc_melanoma_12_13_19-final-ppt/</guid>
       <description>
 
-&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34; target=&#34;_blank&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Intro-Slide.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Disclosures.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;👉 &lt;a href=&#34;#install&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;📚 &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;View the &lt;strong&gt;documentation&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💬 &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Ask a question&lt;/strong&gt; on the forum&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👥 &lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34;&gt;Chat with the &lt;strong&gt;community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/source_themes&#34; target=&#34;_blank&#34;&gt;@source_themes&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23MadeWithAcademic&amp;amp;src=typd&#34; target=&#34;_blank&#34;&gt;#MadeWithAcademic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💡 &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;⬆️ &lt;strong&gt;Updating?&lt;/strong&gt; View the &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;❤ &lt;strong&gt;Support development&lt;/strong&gt; of Academic:
+&lt;li&gt;Review basic epidemiology of melanoma&lt;/li&gt;
+&lt;li&gt;Review molecular mechanisms of melanoma&lt;/li&gt;
+&lt;li&gt;Discuss risk factors for melanoma&lt;/li&gt;
+&lt;li&gt;Review how to evaluate and stage patients&lt;/li&gt;
+&lt;li&gt;Overview of management of melanoma&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;pre-lecture-quiz&#34;&gt;Pre-Lecture Quiz&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;☕️ &lt;a href=&#34;https://paypal.me/cushen&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Donate a coffee&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💵 &lt;a href=&#34;https://www.patreon.com/cushen&#34; target=&#34;_blank&#34;&gt;Become a backer on &lt;strong&gt;Patreon&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🖼️ &lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academic&#34; target=&#34;_blank&#34;&gt;Decorate your laptop or journal with an Academic &lt;strong&gt;sticker&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👕 &lt;a href=&#34;https://academic.threadless.com/&#34; target=&#34;_blank&#34;&gt;Wear the &lt;strong&gt;T-shirt&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👩‍💻 &lt;a href=&#34;https://sourcethemes.com/academic/docs/contribute/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Contribute&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Take out your cell phone&lt;/li&gt;
+&lt;li&gt;Open text message app&lt;/li&gt;
+&lt;li&gt;Follow the instructions on the screen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;epidemiology&#34;&gt;Epidemiology&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1:25 Americans will get some kind of melanoma in their lifetime&lt;/li&gt;
+&lt;li&gt;1:52 Americans will get an invasive melanoma in their lifetime&lt;/li&gt;
+&lt;li&gt;Estimated to be 96,480 newly diagnosed cases of invasive melanoma in the U.S. in 2019
+
+&lt;ul&gt;
+&lt;li&gt;95,830 cases of melanoma in situ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Between 9,000-10,000 deaths annually&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/ACS-Cancer-Stats.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;hallmarks-of-cancer&#34;&gt;Hallmarks of Cancer&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Self-sufficiency of growth signals&lt;/li&gt;
+&lt;li&gt;Insensitivity to anti-growth signals&lt;/li&gt;
+&lt;li&gt;Evading apoptosis&lt;/li&gt;
+&lt;li&gt;Limitless replicative potential&lt;/li&gt;
+&lt;li&gt;Sustained angiogenesis&lt;/li&gt;
+&lt;li&gt;Tissue invasion and metastasis&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ref: Hanahan and Weinberg. &lt;em&gt;Cell&lt;/em&gt; 2000. Vol 100&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;hallmarks-of-cancer-updated&#34;&gt;Hallmarks of Cancer - Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Deregulating Cellular Energetics&lt;/li&gt;
+&lt;li&gt;Genome Instability and Mutation&lt;/li&gt;
+&lt;li&gt;Avoiding Immune Destruction&lt;/li&gt;
+&lt;li&gt;Tumor-promoting Inflammation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ref: Hanahan and Weinberg. &lt;em&gt;Cell&lt;/em&gt; 2011.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;melanoma-pathogenesis&#34;&gt;Melanoma Pathogenesis&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;oncogenes-and-tumor-suppressors&#34;&gt;Oncogenes and Tumor Suppressors&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Oncogenes-tsgs.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;oncogenes-in-melanoma&#34;&gt;Oncogenes in Melanoma&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Oncogenes-in-melanoma.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/cell-cycle.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/legend-cell-cycle.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/senescence.jpg&#34;
+  &gt;
+
+
+&lt;h4 id=&#34;oncogene-induced-senescence&#34;&gt;Oncogene-Induced Senescence&lt;/h4&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/legend-senescence.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;why-don-t-all-melanocytes-undergo-oncogene-induced-senescence&#34;&gt;Why don’t all melanocytes undergo oncogene-induced senescence?&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/cell-cycle-2.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/melanoma-pathways.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/melanoma-pathways-legend.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;risk-factors-for-melanoma-genetics&#34;&gt;Risk Factors for Melanoma - Genetics&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;susceptibility-to-cutaneous-malignant-melanoma-cmm&#34;&gt;Susceptibility to Cutaneous Malignant Melanoma (CMM)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;There are numerous loci that have been identified that predispose patients to melanoma
+Several familial syndromes have been described
+
+&lt;ul&gt;
+&lt;li&gt;E.g. in 1978, Clark et al pointed out distinctive clinical and histologic features of the moles that are precursors of familial malignant melanomas
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;hr /&gt;
 
+&lt;h2 id=&#34;cmm-bk-mole-syndrome&#34;&gt;CMM - BK Mole Syndrome&lt;/h2&gt;
 
+&lt;ul&gt;
+&lt;li&gt;B-K Mole Syndrome (named after family names of 2 of the patients)
 
+&lt;ul&gt;
+&lt;li&gt;Aka FAMMM (Familial Atypical Mole-malignant Melanoma)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Penetrance
 
+&lt;ul&gt;
+&lt;li&gt;58% to 92% by 80 years of age and varies with geography&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
+&lt;hr /&gt;
 
+&lt;h3 id=&#34;cmm-genetics&#34;&gt;CMM Genetics&lt;/h3&gt;
 
+&lt;ul&gt;
+&lt;li&gt;CMM1 has been mapped to chromosome 1p36.&lt;/li&gt;
+&lt;li&gt;CMM2 – CDKN2A (9p21)&lt;/li&gt;
+&lt;li&gt;CMM3 – CDK4 (12q14)&lt;/li&gt;
+&lt;li&gt;CMM4 – mapped to chromosome 1p22&lt;/li&gt;
+&lt;li&gt;CMM5 – MC1R (16q24)&lt;/li&gt;
+&lt;li&gt;CMM6 – XRCC3 (14q32)&lt;/li&gt;
+&lt;li&gt;CMM7 – mapped to chromosome 20q11&lt;/li&gt;
+&lt;li&gt;CMM8 – MITF (3p13)&lt;/li&gt;
+&lt;li&gt;CMM9 – TERT (5p15)&lt;/li&gt;
+&lt;li&gt;CMM10 – POT1 (7q31)&lt;/li&gt;
+&lt;/ul&gt;
 
+&lt;hr /&gt;
 
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; data-caption=&#34;Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34;&gt;
-&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
+&lt;p&gt;
+&lt;section data-noprocess data-shortcode-slide
   
+      
+      data-background-image=&#34;./Slides/CMM-Somatic.jpg&#34;
+  &gt;
+
+Predominantly Somatic Mutations in Purple&lt;/p&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
   
-  &lt;figcaption&gt;
-    Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.
-  &lt;/figcaption&gt;
+      
+      data-background-image=&#34;./Slides/CMM-inherited.jpg&#34;
+  &gt;
 
 
-&lt;/figure&gt;
+&lt;p&gt;CMM Mutations in Yellow&lt;/p&gt;
+
+&lt;hr /&gt;
 
 
-&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/RFs-environment.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/RFs-genotype.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Risk-atypical-nevi.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Risk-nevi.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Right-arm.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Types-Melanoma.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/SSM.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Nodular-Melanoma.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Lentigo-Maligna.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/ALM.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Desmoplastic.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Desmoplastic-2.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;diagnosis-and-work-up&#34;&gt;Diagnosis and Work Up&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;biopsy&#34;&gt;Biopsy&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-
-&lt;p&gt;Academic comes with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can  choose their preferred mode - click the sun/moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully &lt;a href=&#34;https://sourcethemes.com/academic/docs/customization/#custom-theme&#34; target=&#34;_blank&#34;&gt;customizable&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;li&gt;Ideally, a patient with a lesion suspicious for melanoma should have
+a narrow excisional biopsy&lt;/li&gt;
+&lt;li&gt;This biopsy can be performed with a variety of techniques
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-admin&#34; target=&#34;_blank&#34;&gt;Academic Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-scripts&#34; target=&#34;_blank&#34;&gt;Academic Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of Academic&lt;/li&gt;
+&lt;li&gt;Elliptical excision&lt;/li&gt;
+&lt;li&gt;Punch biopsy&lt;/li&gt;
+&lt;li&gt;Saucerization
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34; target=&#34;_blank&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34; target=&#34;_blank&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Biopsy-technique.jpg&#34;
+  &gt;
 
-&lt;p&gt;Then &lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34; target=&#34;_blank&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt; to help keep track of &lt;a href=&#34;https://sourcethemes.com/academic/updates&#34; target=&#34;_blank&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/transection-evidence.jpg&#34;
+  &gt;
 
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
 
-&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/gen-mgmt-pt-melanoma.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Tx-strategies.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Approved-Tx.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/CIT.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Legend-CIT.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Stage-3-Tx.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Tx-Metastatic-Dz.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
 </description>
     </item>
     
     <item>
-      <title>An example journal article</title>
-      <link>/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
+      <title>Melanoma - Pathogenesis, Diagnosis and Work Up</title>
+      <link>/slides/gwu_melanoma-01-24-20-final-ppt/</link>
+      <pubDate>Wed, 11 Dec 2019 09:00:00 +0000</pubDate>
+      <guid>/slides/gwu_melanoma-01-24-20-final-ppt/</guid>
+      <description>
 
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
 
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Intro-Slide.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Disclosures.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Review basic epidemiology of melanoma&lt;/li&gt;
+&lt;li&gt;Review molecular mechanisms of melanoma&lt;/li&gt;
+&lt;li&gt;Discuss risk factors for melanoma&lt;/li&gt;
+&lt;li&gt;Review how to evaluate and stage patients&lt;/li&gt;
+&lt;li&gt;Overview of management of melanoma&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;pre-lecture-quiz&#34;&gt;Pre-Lecture Quiz&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Take out your cell phone&lt;/li&gt;
+&lt;li&gt;Open text message app&lt;/li&gt;
+&lt;li&gt;Follow the instructions on the screen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;epidemiology&#34;&gt;Epidemiology&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1:25 Americans will get some kind of melanoma in their lifetime&lt;/li&gt;
+&lt;li&gt;1:52 Americans will get an invasive melanoma in their lifetime&lt;/li&gt;
+&lt;li&gt;Estimated to be 96,480 newly diagnosed cases of invasive melanoma in the U.S. in 2019
+
+&lt;ul&gt;
+&lt;li&gt;95,830 cases of melanoma in situ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Between 9,000-10,000 deaths annually&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/ACS-Cancer-Stats.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;hallmarks-of-cancer&#34;&gt;Hallmarks of Cancer&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Self-sufficiency of growth signals&lt;/li&gt;
+&lt;li&gt;Insensitivity to anti-growth signals&lt;/li&gt;
+&lt;li&gt;Evading apoptosis&lt;/li&gt;
+&lt;li&gt;Limitless replicative potential&lt;/li&gt;
+&lt;li&gt;Sustained angiogenesis&lt;/li&gt;
+&lt;li&gt;Tissue invasion and metastasis&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ref: Hanahan and Weinberg. &lt;em&gt;Cell&lt;/em&gt; 2000. Vol 100&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;hallmarks-of-cancer-updated&#34;&gt;Hallmarks of Cancer - Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Deregulating Cellular Energetics&lt;/li&gt;
+&lt;li&gt;Genome Instability and Mutation&lt;/li&gt;
+&lt;li&gt;Avoiding Immune Destruction&lt;/li&gt;
+&lt;li&gt;Tumor-promoting Inflammation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ref: Hanahan and Weinberg. &lt;em&gt;Cell&lt;/em&gt; 2011.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;melanoma-pathogenesis&#34;&gt;Melanoma Pathogenesis&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;oncogenes-and-tumor-suppressors&#34;&gt;Oncogenes and Tumor Suppressors&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Oncogenes-tsgs.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;oncogenes-in-melanoma&#34;&gt;Oncogenes in Melanoma&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Oncogenes-in-melanoma.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/cell-cycle.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/legend-cell-cycle.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/senescence.jpg&#34;
+  &gt;
+
+
+&lt;h4 id=&#34;oncogene-induced-senescence&#34;&gt;Oncogene-Induced Senescence&lt;/h4&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/legend-senescence.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;why-don-t-all-melanocytes-undergo-oncogene-induced-senescence&#34;&gt;Why don’t all melanocytes undergo oncogene-induced senescence?&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/cell-cycle-2.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/melanoma-pathways.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/melanoma-pathways-legend.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;risk-factors-for-melanoma-genetics&#34;&gt;Risk Factors for Melanoma - Genetics&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;susceptibility-to-cutaneous-malignant-melanoma-cmm&#34;&gt;Susceptibility to Cutaneous Malignant Melanoma (CMM)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;There are numerous loci that have been identified that predispose patients to melanoma
+Several familial syndromes have been described
+
+&lt;ul&gt;
+&lt;li&gt;E.g. in 1978, Clark et al pointed out distinctive clinical and histologic features of the moles that are precursors of familial malignant melanomas
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;cmm-bk-mole-syndrome&#34;&gt;CMM - BK Mole Syndrome&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;B-K Mole Syndrome (named after family names of 2 of the patients)
+
+&lt;ul&gt;
+&lt;li&gt;Aka FAMMM (Familial Atypical Mole-malignant Melanoma)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Penetrance
+
+&lt;ul&gt;
+&lt;li&gt;58% to 92% by 80 years of age and varies with geography&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;cmm-genetics&#34;&gt;CMM Genetics&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CMM1 has been mapped to chromosome 1p36.&lt;/li&gt;
+&lt;li&gt;CMM2 – CDKN2A (9p21)&lt;/li&gt;
+&lt;li&gt;CMM3 – CDK4 (12q14)&lt;/li&gt;
+&lt;li&gt;CMM4 – mapped to chromosome 1p22&lt;/li&gt;
+&lt;li&gt;CMM5 – MC1R (16q24)&lt;/li&gt;
+&lt;li&gt;CMM6 – XRCC3 (14q32)&lt;/li&gt;
+&lt;li&gt;CMM7 – mapped to chromosome 20q11&lt;/li&gt;
+&lt;li&gt;CMM8 – MITF (3p13)&lt;/li&gt;
+&lt;li&gt;CMM9 – TERT (5p15)&lt;/li&gt;
+&lt;li&gt;CMM10 – POT1 (7q31)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/CMM-Somatic.jpg&#34;
+  &gt;
+
+Predominantly Somatic Mutations in Purple&lt;/p&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/CMM-inherited.jpg&#34;
+  &gt;
+
+
+&lt;p&gt;CMM Mutations in Yellow&lt;/p&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/RFs-environment.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/RFs-genotype.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Risk-atypical-nevi.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Risk-nevi.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Right-arm.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Types-Melanoma.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/SSM.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Nodular-Melanoma.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Lentigo-Maligna.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/ALM.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Desmoplastic.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Desmoplastic-2.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;diagnosis-and-work-up&#34;&gt;Diagnosis and Work Up&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;biopsy&#34;&gt;Biopsy&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ideally, a patient with a lesion suspicious for melanoma should have
+a narrow excisional biopsy&lt;/li&gt;
+&lt;li&gt;This biopsy can be performed with a variety of techniques
+
+&lt;ul&gt;
+&lt;li&gt;Elliptical excision&lt;/li&gt;
+&lt;li&gt;Punch biopsy&lt;/li&gt;
+&lt;li&gt;Saucerization
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Biopsy-technique.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/transection-evidence.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/gen-mgmt-pt-melanoma.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Tx-strategies.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Approved-Tx.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/CIT.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Legend-CIT.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Stage-3-Tx.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Tx-Metastatic-Dz.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
 </description>
     </item>
     
     <item>
-      <title>An example conference paper</title>
-      <link>/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/conference-paper/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
+      <title>Merkel Cell Carcinoma - Current Concepts in Diagnosis and Management</title>
+      <link>/slides/odac_mcc-1-17-20/</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/slides/odac_mcc-1-17-20/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Intro-Slide.jpg&#34;
+  &gt;
 
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
 
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Disclosures.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Learning-Objectives.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Melanoma-Approvals.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Therapeutic Updates in Melanoma - IO for Earlier Stage Disease</title>
+      <link>/slides/odac_melanoma-1-18-20/</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/slides/odac_melanoma-1-18-20/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Intro-Slide.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Disclosures.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Learning-Objectives.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Melanoma-Approvals.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Targeted-Therapy.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Immune-Checkpoints.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Melanoma-Approvals-Color.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Acknowledgements.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evolving Landscape of Regulatory Medicine in Cutaneous Oncology</title>
+      <link>/slides/reg_med_cut_onc-12-13-19-primer/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/slides/reg_med_cut_onc-12-13-19-primer/</guid>
+      <description>
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Intro-Slide.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Overview of Regulatory Medicine&lt;/li&gt;
+&lt;li&gt;Evalutino of FDA Action in Cutaneous Oncology&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Hx-FDA.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/PDUFA-Hx.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Clinical-Benefit.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Trial-Endpoints.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Approval_Pathways.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Levels-of-Clinical-Evidence.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Internal-External-Validity.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Primer - Melanoma - Pathogenesis, Diagnosis and Work Up</title>
+      <link>/slides/cumc_melanoma_12_13_19-primer/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/slides/cumc_melanoma_12_13_19-primer/</guid>
+      <description>
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Intro-Slide.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Review basic epidemiology of melanoma&lt;/li&gt;
+&lt;li&gt;Review molecular mechanisms of melanoma&lt;/li&gt;
+&lt;li&gt;Discuss risk factors for melanoma&lt;/li&gt;
+&lt;li&gt;Review how to evaluate and stage patients&lt;/li&gt;
+&lt;li&gt;Overview of management of melanoma&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;epidemiology&#34;&gt;Epidemiology&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1:25 Americans will get some kind of melanoma in their lifetime&lt;/li&gt;
+&lt;li&gt;1:52 Americans will get an invasive melanoma in their lifetime&lt;/li&gt;
+&lt;li&gt;Estimated to be 96,480 newly diagnosed cases of invasive melanoma in the U.S. in 2019
+
+&lt;ul&gt;
+&lt;li&gt;95,830 cases of melanoma in situ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Between 9,000-10,000 deaths annually&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/ACS-Cancer-Stats.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;melanoma-pathogenesis&#34;&gt;Melanoma Pathogenesis&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/melanoma-pathways.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/melanoma-pathways-legend.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/cell-cycle.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/legend-cell-cycle.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/senescence.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/legend-senescence.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;susceptibility-to-cutaneous-malignant-melanoma-cmm&#34;&gt;Susceptibility to Cutaneous Malignant Melanoma (CMM)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CMM1 has been mapped to chromosome 1p36.&lt;/li&gt;
+&lt;li&gt;CMM2 – CDKN2A (9p21)&lt;/li&gt;
+&lt;li&gt;CMM3 – CDK4 (12q14)&lt;/li&gt;
+&lt;li&gt;CMM4 – mapped to chromosome 1p22&lt;/li&gt;
+&lt;li&gt;CMM5 – MC1R (16q24)&lt;/li&gt;
+&lt;li&gt;CMM6 – XRCC3 (14q32)&lt;/li&gt;
+&lt;li&gt;CMM7 – mapped to chromosome 20q11&lt;/li&gt;
+&lt;li&gt;CMM8 – MITF (3p13)&lt;/li&gt;
+&lt;li&gt;CMM9 – TERT (5p15)&lt;/li&gt;
+&lt;li&gt;CMM10 – POT1 (7q31)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/CDKN2A.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Prognosis.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Tx-strategies.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Approved-Tx.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/CIT.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Legend-CIT.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Stage-3-Tx.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Tx-Metastatic-Dz.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Project Data Sphere and Ongoing Multi-Institutional Database Efforts</title>
+      <link>/slides/moffit-10-21-19/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/slides/moffit-10-21-19/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Intro-Slide.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Disclosures.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Unmet-Need.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/PDS-MCC-Registry.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Task-Force.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Objectives-and-Applications.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/FDA-Guidance.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Pilot-Study.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Instruments.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Pilot-Part-1.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Data-Collection.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Next-Steps.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./Slides/Acknowledgements.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Website Development With R</title>
+      <link>/post/website-development-using-r/</link>
+      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/post/website-development-using-r/</guid>
+      <description>
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This working document is a rough user guide on how to create a website using R via a package called &lt;code&gt;blogdown&lt;/code&gt;. It will also walk you through opening in account on Netlify, which will host your website.&lt;/li&gt;
+&lt;li&gt;There are numerous resources for webpage development, including an amazing bookdown called &amp;ldquo;blogdown: Creating Websites with R Markdown&amp;rdquo; (&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34;&gt;https://bookdown.org/yihui/blogdown/&lt;/a&gt;). We&amp;rsquo;ve created this resource as we have tried to provide details and pearls that we struggled with and we belive these may be helpful to others.&lt;/li&gt;
+&lt;li&gt;This is a ongoing, &amp;lsquo;living&amp;rsquo; document that is constantly being edited and expanded. Please provide comments to allow us to optimize this document for all R users.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;please-see-the-attached-pdf-for-more-information&#34;&gt;Please see the attached PDF for more information.&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;./Website_Development_in_R.pdf&#34;&gt;Website Development in R&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cutaneous Oncology Research Fellow</title>
+      <link>/post/cutaneous-oncology-research-fellow/</link>
+      <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/post/cutaneous-oncology-research-fellow/</guid>
+      <description>&lt;p&gt;The Massachusetts General Hospital Cancer Center and the Department of Dermatology are offering a 1-2 year research fellowship in cutaneous oncology. This position will provide a unique experience in cutaneous oncology and will include roles in clinical investigation and translational research.&lt;/p&gt;
+
+&lt;p&gt;Please see the attached PDF for more information.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;./CORF-post.pdf&#34;&gt;Cutaneous Oncology Research Fellow Posting&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Current Fellows&lt;/strong&gt;&lt;br /&gt;
+- &lt;a href=&#34;https://www.themillerlab.io/authors/fellows/&#34; target=&#34;_blank&#34;&gt;Sophia Shalhout, PhD&lt;/a&gt;
+&lt;img src=&#34;/img/SZS.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Clinical Investigation in cSCC - Updates from ASCO and ESMO</title>
+      <link>/talk/mgh_meei_nmsc_program_research_meeting-11_19_19/</link>
+      <pubDate>Tue, 19 Nov 2019 07:00:00 +0000</pubDate>
+      <guid>/talk/mgh_meei_nmsc_program_research_meeting-11_19_19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project Data Sphere and Ongoing Multi-Institutional Database Efforts</title>
+      <link>/talk/moffit_10-21-19/</link>
+      <pubDate>Mon, 21 Oct 2019 16:30:00 +0000</pubDate>
+      <guid>/talk/moffit_10-21-19/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;./featured_1.jpg&#34; alt=&#34;Dr. Miller presenting at MCC Symposium&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2019 ASCO IO Abstracts Review</title>
+      <link>/talk/sanofi_expert_series/</link>
+      <pubDate>Mon, 07 Oct 2019 15:00:00 +0000</pubDate>
+      <guid>/talk/sanofi_expert_series/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project Data Sphere’s Mentoring Award in Oncology, Advanced Analytics and Regulatory Science</title>
+      <link>/funding/pds-award/</link>
+      <pubDate>Sun, 01 Sep 2019 09:30:00 +0000</pubDate>
+      <guid>/funding/pds-award/</guid>
+      <description>
+
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+
+&lt;p&gt;The Merkel Cell Carcinoma Patient Registry is a multi-institutional collaborative effort that is collecting data on outcomes and events in MCC patients. MCC is the prototypical rare tumor, and this Registry aims to develop new methodologies that will enable investigators to examine real world data in real time. Deliverables from the Registry include: (i) precise patient risk stratification, (ii) real-world data for drug development programs, (iii) identification of optimal sequence and combinations therapies, (iv) uncovering low-incidence toxicities and (v) revelations about best practices, (vi) and the generation of novel testable hypotheses.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Work Up and Management of Non-Melanoma Skin Cancer</title>
+      <link>/talk/medical_education_program_on_melanoma_management_nmsc-8-23-19/</link>
+      <pubDate>Fri, 23 Aug 2019 08:30:00 +0000</pubDate>
+      <guid>/talk/medical_education_program_on_melanoma_management_nmsc-8-23-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diagnosis and Initial Management of Melanoma</title>
+      <link>/talk/medical_education_program_on_melanoma_management_melanoma-8-23-19/</link>
+      <pubDate>Fri, 23 Aug 2019 08:00:00 +0000</pubDate>
+      <guid>/talk/medical_education_program_on_melanoma_management_melanoma-8-23-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Melanoma</title>
+      <link>/talk/harvard_derm_resident_lecture_melanoma-08-01-19/</link>
+      <pubDate>Thu, 01 Aug 2019 07:00:00 +0000</pubDate>
+      <guid>/talk/harvard_derm_resident_lecture_melanoma-08-01-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project Data Sphere &amp; MCC patient Registry- From Promise to Prototype to Patient</title>
+      <link>/talk/scout_6-2-19/</link>
+      <pubDate>Sun, 02 Jun 2019 18:30:00 +0000</pubDate>
+      <guid>/talk/scout_6-2-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clinical and Translational Research in Cutaneous Oncology</title>
+      <link>/talk/harvard_derm_interest_group-05-20-19/</link>
+      <pubDate>Mon, 20 May 2019 18:00:00 +0000</pubDate>
+      <guid>/talk/harvard_derm_interest_group-05-20-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cutaneous Oncology Board Preparation</title>
+      <link>/talk/bidmc_board_prep-05-20-19/</link>
+      <pubDate>Mon, 20 May 2019 15:00:00 +0000</pubDate>
+      <guid>/talk/bidmc_board_prep-05-20-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regulatory Medicine in Cutaneous Oncology</title>
+      <link>/talk/unmc_5_7_19/</link>
+      <pubDate>Tue, 07 May 2019 18:00:00 +0000</pubDate>
+      <guid>/talk/unmc_5_7_19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Merkel Cell Carcinoma</title>
+      <link>/talk/gw_derm_resident_lecture_mcc-04-18-19/</link>
+      <pubDate>Thu, 18 Apr 2019 09:00:00 +0000</pubDate>
+      <guid>/talk/gw_derm_resident_lecture_mcc-04-18-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regulatory Medicine in Cutaneous Oncology</title>
+      <link>/talk/mgh_cut_on_lect_series_reg_med-04_02_19/</link>
+      <pubDate>Tue, 02 Apr 2019 09:00:00 +0000</pubDate>
+      <guid>/talk/mgh_cut_on_lect_series_reg_med-04_02_19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neoadjuvant PD-1 Blockade in Resectable Melanoma</title>
+      <link>/talk/harvard_derm_resident_journal_club-03-25-19/</link>
+      <pubDate>Mon, 25 Mar 2019 07:00:00 +0000</pubDate>
+      <guid>/talk/harvard_derm_resident_journal_club-03-25-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project Data Sphere &amp; MCC patient Registry- From Promise to Prototype to Patient</title>
+      <link>/talk/mig_3-1-19/</link>
+      <pubDate>Fri, 01 Mar 2019 18:00:00 +0000</pubDate>
+      <guid>/talk/mig_3-1-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sezary Syndrome Part 2 - Diagnosis and Management</title>
+      <link>/talk/harvard_derm_resident_lecture_sezary-02-22-19/</link>
+      <pubDate>Fri, 22 Feb 2019 07:00:00 +0000</pubDate>
+      <guid>/talk/harvard_derm_resident_lecture_sezary-02-22-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sezary Syndrome Part 1 - Pathogenesis and Clinical Features</title>
+      <link>/talk/harvard_derm_resident_lecture_sezary-02-15-19/</link>
+      <pubDate>Fri, 15 Feb 2019 07:00:00 +0000</pubDate>
+      <guid>/talk/harvard_derm_resident_lecture_sezary-02-15-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mGODS - Monoclonal Gammopathies Of Dermatological Significance</title>
+      <link>/talk/harvard_derm_resident_mgods-02-08-19/</link>
+      <pubDate>Fri, 08 Feb 2019 07:45:00 +0000</pubDate>
+      <guid>/talk/harvard_derm_resident_mgods-02-08-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sezary Syndrome</title>
+      <link>/talk/gw_derm_resident_lecture_sezary-01-17-19/</link>
+      <pubDate>Thu, 17 Jan 2019 14:30:00 +0000</pubDate>
+      <guid>/talk/gw_derm_resident_lecture_sezary-01-17-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mGODS - Monoclonal Gammopathies of Dermatological Signficance</title>
+      <link>/talk/gw_derm_resident_lecture_mgods-01-17-19/</link>
+      <pubDate>Thu, 17 Jan 2019 13:00:00 +0000</pubDate>
+      <guid>/talk/gw_derm_resident_lecture_mgods-01-17-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clinical spectrum of cutaneous melanoma morphology.</title>
+      <link>/publication/clinical-spectrum-of-melanoma/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/clinical-spectrum-of-melanoma/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/30165162&#34; target=&#34;_blank&#34;&gt;Clinical spectrum of cutaneous melanoma morphology.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reducing M&amp;M in M&amp;M - Strategies to improve Morbidity and Mortality in Melanoma and Merkel cell carcinoma</title>
+      <link>/talk/bidmc_hem_onc_grand_rounds_12_19-18/</link>
+      <pubDate>Wed, 19 Dec 2018 08:30:00 +0000</pubDate>
+      <guid>/talk/bidmc_hem_onc_grand_rounds_12_19-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FDA Action in Cutaneous Oncology</title>
+      <link>/talk/cumc_derm_lecture_regulatory_medicine-11-09-18/</link>
+      <pubDate>Fri, 09 Nov 2018 13:00:00 +0000</pubDate>
+      <guid>/talk/cumc_derm_lecture_regulatory_medicine-11-09-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sezary Syndrome</title>
+      <link>/talk/cumc_derm_lecture_sezary-11-09-18/</link>
+      <pubDate>Fri, 09 Nov 2018 09:00:00 +0000</pubDate>
+      <guid>/talk/cumc_derm_lecture_sezary-11-09-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eczema Tvecium</title>
+      <link>/publication/eczema-tvecium/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/eczema-tvecium/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/30454071&#34; target=&#34;_blank&#34;&gt;Kaposi&amp;rsquo;s varicelliform eruption in a patient with metastatic melanoma and primary cutaneous anaplastic large cell lymphoma treated with talimogene laherparepvec and nivolumab.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PDS MCC Tumor Registry</title>
+      <link>/talk/fda_registries_task_force-10-22-18/</link>
+      <pubDate>Mon, 22 Oct 2018 12:00:00 +0000</pubDate>
+      <guid>/talk/fda_registries_task_force-10-22-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PAMPs, DAMPs and Dermatology</title>
+      <link>/talk/cumc_derm_lecture_innate_immunity-08-24-18/</link>
+      <pubDate>Fri, 24 Aug 2018 11:00:00 +0000</pubDate>
+      <guid>/talk/cumc_derm_lecture_innate_immunity-08-24-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TCRs, Tsubs and dHSRs - T-cell Immunity for the Dermatologist</title>
+      <link>/talk/cumc_derm_lecture_t_cell_biology-08-24-18/</link>
+      <pubDate>Fri, 24 Aug 2018 09:00:00 +0000</pubDate>
+      <guid>/talk/cumc_derm_lecture_t_cell_biology-08-24-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Melanoma</title>
+      <link>/talk/harvard_derm_resident_lecture_melanoma-07-31-18/</link>
+      <pubDate>Tue, 31 Jul 2018 07:00:00 +0000</pubDate>
+      <guid>/talk/harvard_derm_resident_lecture_melanoma-07-31-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ECOG ACRIN Paul Carbone, MD Fellowship Award</title>
+      <link>/funding/ecog-acrin/</link>
+      <pubDate>Sun, 01 Jul 2018 09:30:00 +0000</pubDate>
+      <guid>/funding/ecog-acrin/</guid>
+      <description>
+
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+
+&lt;p&gt;Recent therapeutic advancements in melanoma have significantly improved the prognosis for thousands of patients with this life-threatening disease. Identification of key driver mutations in melanoma - such as BRAF - has led to the discovery of oncogene-directed therapies that have profoundly changed the therapeutic landscape in melanoma. Indeed, the development of small-molecule inhibitors of BRAF (e.g. vemurafenib and dabrafenib) and its downstream partner MEK (e.g trametinib and cobimetinib) established a new therapeutic paradigm in the management of melanoma. Nevertheless, despite these recent advancements, the prognosis for patients with metastatic disease remains poor, as resistance to these approaches emerges in the majority of patients. Thus, additional management options are sorely needed. This proposed research is designed to test the hypothesis that targeting the recently identified RNF125-JAK1-AXL/EGFR axis will overcome resistance to BRAF/MEK-targeted therapy. To test this hypothesis, we will conduct an investigator-initiated, Phase Ib/single-arm phase II expansion study with the novel JAK1 inhibitor INCB039110 (INCB) in patients with metastatic BRAF-mutant melanoma co-administered with the BRAF inhibitor dabrafenib and the MEK inhibitor trametinib. We will also perform correlative studies using novel single-cell resolving technologies on pre- and post-treatment specimens to characterize the effects of targeting the RNF125-JAK1-AXL/EGFR axis on the tumor and its ecosystem in order to identify molecular and cellular determinants of resistance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Role of CDK7 in Melanoma</title>
+      <link>/publication/cdk7/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/cdk7/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/29408204&#34; target=&#34;_blank&#34;&gt;High MITF Expression Is Associated with Super-Enhancers and Suppressed by CDK7 Inhibition in Melanoma.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Merkel Cell Carcinoma - Updates in Diagnosis and Management</title>
+      <link>/talk/meei_grand_rounds-06_14_18/</link>
+      <pubDate>Thu, 14 Jun 2018 07:00:00 +0000</pubDate>
+      <guid>/talk/meei_grand_rounds-06_14_18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Merkel Cell Carcinoma</title>
+      <link>/talk/cumc_derm_lecture_mcc-05-18-18/</link>
+      <pubDate>Fri, 18 May 2018 13:00:00 +0000</pubDate>
+      <guid>/talk/cumc_derm_lecture_mcc-05-18-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Biology of Cutaneous Oncology</title>
+      <link>/talk/cumc_derm_lecture_cancer_biology-05-18-18/</link>
+      <pubDate>Fri, 18 May 2018 09:30:00 +0000</pubDate>
+      <guid>/talk/cumc_derm_lecture_cancer_biology-05-18-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mGODS - Monoclonal Gammopathies of Dermatological Signficance</title>
+      <link>/talk/cumc_derm_lecture_mgods-05-18-18/</link>
+      <pubDate>Fri, 18 May 2018 08:00:00 +0000</pubDate>
+      <guid>/talk/cumc_derm_lecture_mgods-05-18-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PAMPs DAMPs and Dermatology - Innate Immunity for the Dermatologist</title>
+      <link>/talk/harvard_derm_resident_lecture_innate_immunity-05-08-18/</link>
+      <pubDate>Tue, 08 May 2018 09:30:00 +0000</pubDate>
+      <guid>/talk/harvard_derm_resident_lecture_innate_immunity-05-08-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>American Skin Association Research Grant</title>
+      <link>/funding/asa/</link>
+      <pubDate>Mon, 01 Jan 2018 09:30:00 +0000</pubDate>
+      <guid>/funding/asa/</guid>
+      <description>
+
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+
+&lt;p&gt;Recent therapeutic advancements in melanoma have significantly improved the prognosis for thousands of patients with this life-threatening disease. Identification of key driver mutations in melanoma - such as BRAF - has led to the discovery of oncogene-directed therapies that have profoundly changed the therapeutic landscape in melanoma. Indeed, the development of small-molecule inhibitors of BRAF (e.g. vemurafenib and dabrafenib) and its downstream partner MEK (e.g trametinib and cobimetinib) established a new therapeutic paradigm in the management of melanoma. Nevertheless, despite these recent advancements, the prognosis for patients with metastatic disease remains poor, as resistance to these approaches emerges in the majority of patients. Thus, additional management options are sorely needed. This proposed research is designed to test the hypothesis that targeting the recently identified RNF125-JAK1-AXL/EGFR axis will overcome resistance to BRAF/MEK-targeted therapy. To test this hypothesis, we will conduct an investigator-initiated, Phase Ib/single-arm phase II expansion study with the novel JAK1 inhibitor INCB039110 (INCB) in patients with metastatic BRAF-mutant melanoma co-administered with the BRAF inhibitor dabrafenib and the MEK inhibitor trametinib. We will also perform correlative studies using novel single-cell resolving technologies on pre- and post-treatment specimens to characterize the effects of targeting the RNF125-JAK1-AXL/EGFR axis on the tumor and its ecosystem in order to identify molecular and cellular determinants of resistance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>mGODS - Monoclonal Gammopathies Of Dermatological Significance</title>
+      <link>/talk/harvard_derm_resident_mgods-12-19-17/</link>
+      <pubDate>Tue, 19 Dec 2017 09:30:00 +0000</pubDate>
+      <guid>/talk/harvard_derm_resident_mgods-12-19-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>No Claims No Gains - Why You Need to Know the Business Side of Medicine</title>
+      <link>/talk/bidmc_topics_in_oncology-12_14-17/</link>
+      <pubDate>Thu, 14 Dec 2017 08:00:00 +0000</pubDate>
+      <guid>/talk/bidmc_topics_in_oncology-12_14-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sezary Syndrome</title>
+      <link>/talk/harvard_derm_resident_lecture_sezary-11-21-17/</link>
+      <pubDate>Tue, 21 Nov 2017 10:30:00 +0000</pubDate>
+      <guid>/talk/harvard_derm_resident_lecture_sezary-11-21-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nivolumab as Adjuvant Therapy for Melanoma</title>
+      <link>/talk/bidmc_journal_club_10-31-17/</link>
+      <pubDate>Tue, 31 Oct 2017 08:00:00 +0000</pubDate>
+      <guid>/talk/bidmc_journal_club_10-31-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Complete Response in cSCC with Ipi/Nivo</title>
+      <link>/publication/cr-ipi-nivo-scc/</link>
+      <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/cr-ipi-nivo-scc/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/28932782&#34; target=&#34;_blank&#34;&gt;Complete pathologic response of metastatic cutaneous squamous cell carcinoma and allograft rejection after treatment with combination immune checkpoint blockade.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sezary Syndrome</title>
+      <link>/talk/harvard_derm_resident_lecture_sezary-05-30-17/</link>
+      <pubDate>Tue, 30 May 2017 11:00:00 +0000</pubDate>
+      <guid>/talk/harvard_derm_resident_lecture_sezary-05-30-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Somatic Driver Mutations in Melanoma</title>
+      <link>/publication/somatic-drivers-melanoma/</link>
+      <pubDate>Fri, 19 May 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/somatic-drivers-melanoma/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/full/10.1002/cncr.30593&#34; target=&#34;_blank&#34;&gt;Somatic driver mutations in melanoma.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Avelumab for Patients with Merkel Cell Carcinoma</title>
+      <link>/talk/bidmc_journal_club_05-02-17/</link>
+      <pubDate>Tue, 02 May 2017 08:00:00 +0000</pubDate>
+      <guid>/talk/bidmc_journal_club_05-02-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mGODS - Monoclonal Gammopathies Of Dermatological Significance</title>
+      <link>/talk/harvard_derm_resident_mgods-01-31-17/</link>
+      <pubDate>Tue, 31 Jan 2017 10:00:00 +0000</pubDate>
+      <guid>/talk/harvard_derm_resident_mgods-01-31-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A novel multi-CDK inhibitor in Melanoma</title>
+      <link>/publication/multi-cdk-inhibitor-in-melanoma/</link>
+      <pubDate>Sat, 02 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/multi-cdk-inhibitor-in-melanoma/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/26810603&#34; target=&#34;_blank&#34;&gt;A novel multi-CDK inhibitor P1446A-05 restricts melanoma growth and produces synergistic effects in combination with MAPK pathway inhibitors.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scratching the Surface of Acute Graft vs. Host Disease</title>
+      <link>/talk/bidmc_hematology_gvhd-06_10-16/</link>
+      <pubDate>Fri, 10 Jun 2016 08:00:00 +0000</pubDate>
+      <guid>/talk/bidmc_hematology_gvhd-06_10-16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Molecularly Targeted Therapies and Immunotherapies For Melanoma</title>
+      <link>/publication/review-of-molecularly-targeted-therapies-and-immunotherapies-for-melanoma/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/review-of-molecularly-targeted-therapies-and-immunotherapies-for-melanoma/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/25085663&#34; target=&#34;_blank&#34;&gt;Current status and future directions of molecularly targeted therapies and immunotherapies for melanoma.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CDKs as Therapeutic Targets in Melanoma</title>
+      <link>/publication/cdk-inhibotrs-in-melanoma/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/cdk-inhibotrs-in-melanoma/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/24405945&#34; target=&#34;_blank&#34;&gt;Cyclin-dependent kinases as therapeutic targets in melanoma.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Molecular testing in melanoma</title>
+      <link>/publication/molecular-testing-in-melanoma/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/molecular-testing-in-melanoma/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/24534656&#34; target=&#34;_blank&#34;&gt;Commentary: Molecular Testing in Melanoma.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Approach to Purpura</title>
+      <link>/talk/bwh_derm_directive_approach_to_purpura-03-25-16/</link>
+      <pubDate>Fri, 25 Mar 2016 15:30:00 +0000</pubDate>
+      <guid>/talk/bwh_derm_directive_approach_to_purpura-03-25-16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Red Leg</title>
+      <link>/talk/bwh_derm_directive_red_leg-01-29-16/</link>
+      <pubDate>Fri, 29 Jan 2016 15:30:00 +0000</pubDate>
+      <guid>/talk/bwh_derm_directive_red_leg-01-29-16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mycosis Fungoides - Clinical Features, Diagnosis &amp; Management</title>
+      <link>/talk/bidmc_hematology_mf-01-15-16/</link>
+      <pubDate>Fri, 15 Jan 2016 08:00:00 +0000</pubDate>
+      <guid>/talk/bidmc_hematology_mf-01-15-16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Common Primary Care Dermatoses</title>
+      <link>/talk/bwh_im_amb_lecture_common_prim_care_derm-12-08-2017/</link>
+      <pubDate>Tue, 08 Dec 2015 09:00:00 +0000</pubDate>
+      <guid>/talk/bwh_im_amb_lecture_common_prim_care_derm-12-08-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Merkel Cell Carcinoma</title>
+      <link>/talk/bidmc_topics_in_oncology-12_03-15/</link>
+      <pubDate>Thu, 03 Dec 2015 08:00:00 +0000</pubDate>
+      <guid>/talk/bidmc_topics_in_oncology-12_03-15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cellulitis and Its Mimics</title>
+      <link>/talk/bwh_derm_directive_cellulitis_and_its_mimics-11-06-15/</link>
+      <pubDate>Fri, 06 Nov 2015 15:30:00 +0000</pubDate>
+      <guid>/talk/bwh_derm_directive_cellulitis_and_its_mimics-11-06-15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vesiculobullous Eruptions</title>
+      <link>/talk/bwh_derm_directive_vesiculobullous_eruptions-10-09-15/</link>
+      <pubDate>Fri, 09 Oct 2015 15:30:00 +0000</pubDate>
+      <guid>/talk/bwh_derm_directive_vesiculobullous_eruptions-10-09-15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Common Primary Care Dermatoses</title>
+      <link>/talk/bwh_im_amb_lecture_common_prim_care_derm-10-06-2017/</link>
+      <pubDate>Tue, 06 Oct 2015 09:00:00 +0000</pubDate>
+      <guid>/talk/bwh_im_amb_lecture_common_prim_care_derm-10-06-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Common Primary Care Dermatoses</title>
+      <link>/talk/bwh_im_amb_lecture_common_prim_care_derm-09-22-2017/</link>
+      <pubDate>Tue, 22 Sep 2015 09:00:00 +0000</pubDate>
+      <guid>/talk/bwh_im_amb_lecture_common_prim_care_derm-09-22-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Melanoma</title>
+      <link>/talk/cumc_derm_lecture_melanoma-03-27-15/</link>
+      <pubDate>Fri, 27 Mar 2015 09:00:00 +0000</pubDate>
+      <guid>/talk/cumc_derm_lecture_melanoma-03-27-15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biology of Keratinocytes</title>
+      <link>/talk/cumc_derm_lecture_keratinocyte_biology-01-28-15/</link>
+      <pubDate>Wed, 28 Jan 2015 15:30:00 +0000</pubDate>
+      <guid>/talk/cumc_derm_lecture_keratinocyte_biology-01-28-15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parameters for Establishing Humanized Mouse Models</title>
+      <link>/publication/parameters-for-establishing-humanized-mouse-models/</link>
+      <pubDate>Thu, 01 Apr 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/parameters-for-establishing-humanized-mouse-models/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/20096637&#34; target=&#34;_blank&#34;&gt;Parameters for establishing humanized mouse models to study human immunity: analysis of human hematopoietic stem cell engraftment in three immunodeficient strains of mice bearing the IL2rgamma(null) mutation.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TLR Activation Abrogates Mixed Chimerism</title>
+      <link>/publication/tlr-agonists-abrogate-mixed-chimerism/</link>
+      <pubDate>Mon, 01 Dec 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/tlr-agonists-abrogate-mixed-chimerism/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/19120285&#34; target=&#34;_blank&#34;&gt;TLR agonists abrogate co-stimulation blockade-induced mixed chimerism and transplantation tolerance.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Viral infection - a potent barrier to transplantation tolerance</title>
+      <link>/publication/viral-infection-a-potent-barier-to-transplantation-tolerance/</link>
+      <pubDate>Thu, 26 Jun 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/viral-infection-a-potent-barier-to-transplantation-tolerance/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/18815618&#34; target=&#34;_blank&#34;&gt;Viral infection: a potent barrier to transplantation tolerance.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TLR Agonists Abrogate Immunological Tolerance</title>
+      <link>/publication/tlr-agonists-abrogate-immune-tolerance/</link>
+      <pubDate>Thu, 01 May 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/tlr-agonists-abrogate-immune-tolerance/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/19380803&#34; target=&#34;_blank&#34;&gt;TLR agonists prevent the establishment of allogeneic hematopoietic chimerism in mice treated with costimulation blockade.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Role of Innate Immunity in Transplantation Tolerance</title>
+      <link>/publication/role-of-innate-immunity-in-transplantation-tolerance/</link>
+      <pubDate>Tue, 01 Apr 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/role-of-innate-immunity-in-transplantation-tolerance/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/19166387&#34; target=&#34;_blank&#34;&gt;Role of Innate Immunity in Transplantation Tolerance.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Different mechanisms control peripheral and central tolerance</title>
+      <link>/publication/different-mechanisms-control-peripheral-and-central-tolerance-in-hematopoietic-chimeric-mice/</link>
+      <pubDate>Sat, 09 Jun 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/different-mechanisms-control-peripheral-and-central-tolerance-in-hematopoietic-chimeric-mice/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/17564635&#34; target=&#34;_blank&#34;&gt;Different mechanisms control peripheral and central tolerance in hematopoietic chimeric mice.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>American Diabetes Association Physician Scientist Training Award</title>
+      <link>/funding/ada-fellowship/</link>
+      <pubDate>Fri, 01 Jul 2005 09:30:00 +0000</pubDate>
+      <guid>/funding/ada-fellowship/</guid>
+      <description>
+
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+
+&lt;p&gt;The objective of this research was to investigate the ability of mesenchymal stem cells (MSCs), isolated from human bone marrow and human umbilical cord blood, to be used as cellular therapy for diabetes mellitus&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jellypin -  a lower eukaryotic serine proteinase inhibitor (serpin)</title>
+      <link>/publication/jellypin/</link>
+      <pubDate>Tue, 21 Sep 2004 00:00:00 +0000</pubDate>
+      <guid>/publication/jellypin/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/15362859&#34; target=&#34;_blank&#34;&gt;Identification and activity of a lower eukaryotic serine proteinase inhibitor (serpin) from Cyanea capillata: analysis of a jellyfish serpin, jellypin.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Serpin SQN-5</title>
+      <link>/publication/the-serpin-sqn-5-is-a-dual-mechanistic-class-inhibitor-of-serine-and-cysteine-proteinases/</link>
+      <pubDate>Tue, 05 Mar 2002 00:00:00 +0000</pubDate>
+      <guid>/publication/the-serpin-sqn-5-is-a-dual-mechanistic-class-inhibitor-of-serine-and-cysteine-proteinases/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/11863458&#34; target=&#34;_blank&#34;&gt;The serpin SQN-5 is a dual mechanistic-class inhibitor of serine and cysteine proteinases.&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -21,14 +21,14 @@
   
   
 
-  <meta name="author" content="Nelson Bighetti">
+  <meta name="author" content="David Michael Miller">
 
   
   
   
     
   
-  <meta name="description" content="Professor of Artificial Intelligence">
+  <meta name="description" content="Medical Oncologist and Dermatologist">
 
   
   <link rel="alternate" hreflang="en-us" href="/404.html">
@@ -91,6 +91,42 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153183352-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-153183352-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -112,11 +148,11 @@
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="og:site_name" content="Squamous Cell Carcinoma">
+  <meta property="og:site_name" content="The Miller Lab">
   <meta property="og:url" content="/404.html">
-  <meta property="og:title" content="404 Page not found | Squamous Cell Carcinoma">
-  <meta property="og:description" content="Professor of Artificial Intelligence"><meta property="og:image" content="/img/icon-192.png">
-  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content="404 Page not found | The Miller Lab">
+  <meta property="og:description" content="Medical Oncologist and Dermatologist"><meta property="og:image" content="/img/MLab_logo_5.png">
+  <meta property="twitter:image" content="/img/MLab_logo_5.png"><meta property="og:locale" content="en-us">
   
     
   
@@ -135,7 +171,7 @@
 
 
 
-  <title>404 Page not found | Squamous Cell Carcinoma</title>
+  <title>404 Page not found | The Miller Lab</title>
 
 </head>
 
@@ -178,7 +214,7 @@
   <div class="container">
 
     
-      <a class="navbar-brand" href="/">Squamous Cell Carcinoma</a>
+      <a class="navbar-brand" href="/"><img src="/img/MLab_logo_5.png" alt="The Miller Lab"></a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -199,6 +235,240 @@
         
         
         
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people"><span>Meet the Team</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Ongoing Efforts & Research</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Presentations & Lectures</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#funding"><span>Funding</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#tags"><span>Trending</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
 
         
         
@@ -208,7 +478,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/"><span></span></a>
+          <a class="nav-link " href="/files/DMM_CV.pdf"><span>CV</span></a>
         </li>
 
         
@@ -267,21 +537,21 @@
     
       <li><a href="/courses/example/example2/">Example Page 2</a></li>
     
-      <li><a href="/talk/example/">Example Talk</a></li>
+      <li><a href="/talk/gw_derm_resident_lecture_melanoma-01-24-20/">Melanoma - Pathogenesis, Clinical Features, Work Up &amp; Management</a></li>
     
-      <li><a href="/post/writing-technical-content/">Writing technical content in Academic</a></li>
+      <li><a href="/talk/odac_melanoma-1-18-20/">Therapeutic Updates in Melanoma - IO for Earlier Stage Disease</a></li>
     
-      <li><a href="/publication/preprint/">An example preprint / working paper</a></li>
+      <li><a href="/talk/odac_mcc-1-17-20/">Merkel Cell Carcinoma- Current Concepts in Diagnosis and Management</a></li>
     
-      <li><a href="/post/jupyter/">Display Jupyter Notebooks with Academic</a></li>
+      <li><a href="/talk/cumc_derm_lecture_regulatory_medicine-12-13-19/">The Evolving Landscape of Regulatory Medicine in Cutaneous Oncology</a></li>
     
-      <li><a href="/slides/example/">Slides</a></li>
+      <li><a href="/talk/cumc_derm_lecture_melanoma-12-13-19/">Melanoma - Pathogenesis, Clinical Features, Diagnosis and Management</a></li>
     
-      <li><a href="/privacy/">Privacy Policy</a></li>
+      <li><a href="/slides/cumc_melanoma_12_13_19-final-ppt/">Melanoma - Pathogenesis, Diagnosis and Work Up</a></li>
     
-      <li><a href="/terms/">Terms</a></li>
+      <li><a href="/slides/gwu_melanoma-01-24-20-final-ppt/">Melanoma - Pathogenesis, Diagnosis and Work Up</a></li>
     
-      <li><a href="/project/external-project/">External Project</a></li>
+      <li><a href="/slides/odac_mcc-1-17-20/">Merkel Cell Carcinoma - Current Concepts in Diagnosis and Management</a></li>
     
   </ul>
   
@@ -400,16 +670,6 @@
   
   <div class="container">
     <footer class="site-footer">
-  
-  <p class="powered-by">
-    
-      <a href="/privacy/">Privacy Policy</a>
-    
-    
-       &middot; 
-      <a href="/terms/">Terms</a>
-    
-  </p>
   
 
   <p class="powered-by">

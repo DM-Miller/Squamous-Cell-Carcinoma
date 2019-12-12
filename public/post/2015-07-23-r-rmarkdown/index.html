@@ -21,7 +21,7 @@
   
   
 
-  <meta name="author" content="Nelson Bighetti">
+  <meta name="author" content="David Michael Miller">
 
   
   
@@ -93,6 +93,42 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153183352-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-153183352-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -114,13 +150,13 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="og:site_name" content="Squamous Cell Carcinoma">
+  <meta property="og:site_name" content="The Miller Lab">
   <meta property="og:url" content="/post/2015-07-23-r-rmarkdown/">
-  <meta property="og:title" content="Hello R Markdown | Squamous Cell Carcinoma">
+  <meta property="og:title" content="Hello R Markdown | The Miller Lab">
   <meta property="og:description" content="R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu."><meta property="og:image" content="/img/icon-192.png">
-  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu."><meta property="og:image" content="/img/MLab_logo_5.png">
+  <meta property="twitter:image" content="/img/MLab_logo_5.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2015-07-23T21:13:14-05:00">
@@ -160,15 +196,15 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
   
   "author": {
     "@type": "Person",
-    "name": "Nelson Bighetti"
+    "name": "David Michael Miller"
   },
   
   "publisher": {
     "@type": "Organization",
-    "name": "Squamous Cell Carcinoma",
+    "name": "The Miller Lab",
     "logo": {
       "@type": "ImageObject",
-      "url": "/img/icon-512.png"
+      "url": "/img/MLab_logo_5.png"
     }
   },
   "description": "R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nYou can embed an R code chunk like this:\nsummary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu."
@@ -189,7 +225,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
 
 
 
-  <title>Hello R Markdown | Squamous Cell Carcinoma</title>
+  <title>Hello R Markdown | The Miller Lab</title>
 
 </head>
 
@@ -232,7 +268,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
   <div class="container">
 
     
-      <a class="navbar-brand" href="/">Squamous Cell Carcinoma</a>
+      <a class="navbar-brand" href="/"><img src="/img/MLab_logo_5.png" alt="The Miller Lab"></a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -253,6 +289,153 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
         
         
         
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people"><span>Meet the Team</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Presentations</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
 
         
         
@@ -262,7 +445,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/"><span></span></a>
+          <a class="nav-link " href="/files/DMM_CV.pdf"><span>CV</span></a>
         </li>
 
         
@@ -559,13 +742,13 @@ Figure 1: A fancy pie chart.
   <div class="media author-card content-widget-hr">
     
       
-      <img class="portrait mr-3" src="/authors/admin/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+      <img class="portrait mr-3" src="/authors/admin/avatar_huc9d9998d1603e4e767fda0c4a047b641_963350_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/">Nelson Bighetti</a></h5>
-      <h6 class="card-subtitle">Professor of Artificial Intelligence</h6>
-      <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
+      <h5 class="card-title"><a href="/">David Michael Miller</a></h5>
+      <h6 class="card-subtitle">Medical Oncologist and Dermatologist</h6>
+      <p class="card-text">My research interests include clinical and translational research in advanced skin cancers.</p>
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -597,7 +780,7 @@ Figure 1: A fancy pie chart.
       
     
     <li>
-      <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
+      <a href="https://twitter.com/Dave_M_Miller" target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
@@ -612,7 +795,7 @@ Figure 1: A fancy pie chart.
       
     
     <li>
-      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+      <a href="https://scholar.google.com/citations?user=ZS-h1PsAAAAJ&amp;hl=enAAJ" target="_blank" rel="noopener">
         <i class="ai ai-google-scholar"></i>
       </a>
     </li>
@@ -629,7 +812,7 @@ Figure 1: A fancy pie chart.
       
     
     <li>
-      <a href="https://github.com/gcushen" target="_blank" rel="noopener">
+      <a href="https://github.com/DM-Miller" target="_blank" rel="noopener">
         <i class="fab fa-github"></i>
       </a>
     </li>

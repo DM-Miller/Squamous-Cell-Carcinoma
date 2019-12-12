@@ -2,10 +2,10 @@
 # A Projects section created with the Portfolio widget.
 widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 65  # Order that this section will appear.
+active = true  # Activate this widget? true/false
+weight = 30  # Order that this section will appear.
 
-title = "Projects"
+title = "Ongoing Projects, Research and Efforts"
 subtitle = ""
 
 [content]
@@ -26,12 +26,28 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "Deep Learning"
-    tag = "Deep Learning"
-  
+    name = "MCC Registry"
+    tag = "MCC Registry"
+    
   [[content.filter_button]]
-    name = "Other"
-    tag = "Demo"
+    name = "Clinical Trials"
+    tag = "Clinical Trials"
+
+  [[content.filter_button]]
+    name = "Biomarkers"
+    tag = "Biomarkers"
+    
+  [[content.filter_button]]
+    name = "Regulatory Medicine"
+    tag = "Regulatory Medicine"
+    
+  [[content.filter_button]]
+    name = "Data Science"
+    tag = "Data Science"
+    
+  [[content.filter_button]]
+    name = "Clinical Educator"
+    tag = "Education"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

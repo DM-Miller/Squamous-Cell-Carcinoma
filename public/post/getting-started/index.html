@@ -21,7 +21,7 @@
   
   
 
-  <meta name="author" content="Nelson Bighetti">
+  <meta name="author" content="David Michael Miller">
 
   
   
@@ -91,6 +91,42 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153183352-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-153183352-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -111,9 +147,9 @@
   
   <meta property="twitter:card" content="summary_large_image">
   
-  <meta property="og:site_name" content="Squamous Cell Carcinoma">
+  <meta property="og:site_name" content="The Miller Lab">
   <meta property="og:url" content="/post/getting-started/">
-  <meta property="og:title" content="Academic: the website builder for Hugo | Squamous Cell Carcinoma">
+  <meta property="og:title" content="Academic: the website builder for Hugo | The Miller Lab">
   <meta property="og:description" content="Create a beautifully simple website in under 10 minutes."><meta property="og:image" content="/post/getting-started/featured.jpg">
   <meta property="twitter:image" content="/post/getting-started/featured.jpg"><meta property="og:locale" content="en-us">
   
@@ -159,15 +195,15 @@
   
   "author": {
     "@type": "Person",
-    "name": "Nelson Bighetti"
+    "name": "David Michael Miller"
   },
   
   "publisher": {
     "@type": "Organization",
-    "name": "Squamous Cell Carcinoma",
+    "name": "The Miller Lab",
     "logo": {
       "@type": "ImageObject",
-      "url": "/img/icon-512.png"
+      "url": "/img/MLab_logo_5.png"
     }
   },
   "description": "Create a beautifully simple website in under 10 minutes."
@@ -188,7 +224,7 @@
 
 
 
-  <title>Academic: the website builder for Hugo | Squamous Cell Carcinoma</title>
+  <title>Academic: the website builder for Hugo | The Miller Lab</title>
 
 </head>
 
@@ -231,7 +267,7 @@
   <div class="container">
 
     
-      <a class="navbar-brand" href="/">Squamous Cell Carcinoma</a>
+      <a class="navbar-brand" href="/"><img src="/img/MLab_logo_5.png" alt="The Miller Lab"></a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -252,6 +288,153 @@
         
         
         
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people"><span>Meet the Team</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Presentations</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
 
         
         
@@ -261,7 +444,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/"><span></span></a>
+          <a class="nav-link " href="/files/DMM_CV.pdf"><span>CV</span></a>
         </li>
 
         
@@ -346,7 +529,7 @@
 
 
   
-  <span><a href="/authors/admin/">Nelson Bighetti</a></span>
+  <span><a href="/authors/admin/">David Michael Miller</a></span>
 
   </div>
   
@@ -406,7 +589,7 @@
 
 <div class="article-header container featured-image-wrapper mt-4 mb-4" style="max-width: 1200px; max-height: 675px;">
   <div style="position: relative">
-    <img src="/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_1200x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
+    <img src="/post/getting-started/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_882166_1200x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
     <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/CpkOjOcXdUY" target="_blank"><strong>Unsplash</strong></a></span>
   </div>
 </div>
@@ -539,7 +722,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tags/academic/">Academic</a>
+  <a class="badge badge-light" href=""></a>
   
 </div>
 
@@ -660,13 +843,13 @@
   <div class="media author-card content-widget-hr">
     
       
-      <img class="portrait mr-3" src="/authors/admin/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+      <img class="portrait mr-3" src="/authors/admin/avatar_huc9d9998d1603e4e767fda0c4a047b641_963350_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/">Nelson Bighetti</a></h5>
-      <h6 class="card-subtitle">Professor of Artificial Intelligence</h6>
-      <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
+      <h5 class="card-title"><a href="/">David Michael Miller</a></h5>
+      <h6 class="card-subtitle">Medical Oncologist and Dermatologist</h6>
+      <p class="card-text">My research interests include clinical and translational research in advanced skin cancers.</p>
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -698,7 +881,7 @@
       
     
     <li>
-      <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
+      <a href="https://twitter.com/Dave_M_Miller" target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
@@ -713,7 +896,7 @@
       
     
     <li>
-      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+      <a href="https://scholar.google.com/citations?user=ZS-h1PsAAAAJ&amp;hl=enAAJ" target="_blank" rel="noopener">
         <i class="ai ai-google-scholar"></i>
       </a>
     </li>
@@ -730,7 +913,7 @@
       
     
     <li>
-      <a href="https://github.com/gcushen" target="_blank" rel="noopener">
+      <a href="https://github.com/DM-Miller" target="_blank" rel="noopener">
         <i class="fab fa-github"></i>
       </a>
     </li>
