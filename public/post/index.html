@@ -91,47 +91,11 @@
 
 
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153183352-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           document.location = url;
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target);  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-153183352-1', {});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
   
 
 
   
-  <link rel="alternate" href="/post/index.xml" type="application/rss+xml" title="The Miller Lab">
+  <link rel="alternate" href="/post/index.xml" type="application/rss+xml" title="Merkel Cell Carcinoma">
   
 
   <link rel="manifest" href="/index.webmanifest">
@@ -150,30 +114,30 @@
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="og:site_name" content="The Miller Lab">
+  <meta property="og:site_name" content="Merkel Cell Carcinoma">
   <meta property="og:url" content="/post/">
-  <meta property="og:title" content="Posts | The Miller Lab">
-  <meta property="og:description" content="Medical Oncologist and Dermatologist"><meta property="og:image" content="/img/MLab_logo_5.png">
-  <meta property="twitter:image" content="/img/MLab_logo_5.png"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content="Posts | Merkel Cell Carcinoma">
+  <meta property="og:description" content="Medical Oncologist and Dermatologist"><meta property="og:image" content="/img/icon-192.png">
+  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2019-12-07T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2019-07-12T00:00:00&#43;00:00">
   
-
-  
-
-
-
-
-  
-
 
   
 
 
 
 
+  
 
-  <title>Posts | The Miller Lab</title>
+
+  
+
+
+
+
+
+  <title>Posts | Merkel Cell Carcinoma</title>
 
 </head>
 
@@ -216,7 +180,7 @@
   <div class="container">
 
     
-      <a class="navbar-brand" href="/"><img src="/img/MLab_logo_5.png" alt="The Miller Lab"></a>
+      <a class="navbar-brand" href="/">Merkel Cell Carcinoma</a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -255,232 +219,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#people"><span>Meet the Team</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>Ongoing Efforts & Research</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#talks"><span>Presentations & Lectures</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#publications"><span>Publications</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#funding"><span>Funding</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#tags"><span>Trending</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/files/DMM_CV.pdf"><span>CV</span></a>
+          <a class="nav-link " href="/#people"><span>MCC Experts</span></a>
         </li>
 
         
@@ -571,12 +310,12 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/post/website-development-using-r/" >Website Development With R</a>
+      <a href="/post/writing-technical-content/" >Writing technical content in Academic</a>
     </h3>
 
     
     <div class="article-style">
-      This working document is a rough user guide on how to create a website using R via a package called <code>blogdown</code>
+      Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the …
     </div>
     
 
@@ -592,29 +331,14 @@
 
   
   
-  
-  
-  <div>
-    
-
-
-
-  
-  <span><a href="/authors/sophia-shalhout/">Sophia Shalhout</a></span>, <span><a href="/authors/admin/">David Michael Miller</a></span>
-
-  </div>
-  
-  
 
   
   <span class="article-date">
     
     
       
-          Last updated on
-      
     
-    Dec 6, 2019
+    Jul 12, 2019
   </span>
   
 
@@ -623,7 +347,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    4 min read
   </span>
   
 
@@ -646,8 +370,8 @@
     
     
     
-    <a href="/post/website-development-using-r/" >
-      <img src="/post/website-development-using-r/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_2566277_150x0_resize_q90_lanczos.jpg" alt="">
+    <a href="/post/writing-technical-content/" >
+      <img src="/post/writing-technical-content/featured_huc72159e0fc0d14b85f60d34436a630f0_266353_150x0_resize_q90_lanczos.jpg" alt="">
     </a>
     
   </div>
@@ -676,12 +400,12 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/post/cutaneous-oncology-research-fellow/" >Cutaneous Oncology Research Fellow</a>
+      <a href="/post/jupyter/" >Display Jupyter Notebooks with Academic</a>
     </h3>
 
     
     <div class="article-style">
-      A fellowship at MGH in Skin Cancer research
+      Learn how to blog in Academic using Jupyter notebooks
     </div>
     
 
@@ -716,8 +440,10 @@
     
     
       
+          Last updated on
+      
     
-    Dec 6, 2019
+    Sep 5, 2019
   </span>
   
 
@@ -726,7 +452,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    2 min read
   </span>
   
 
@@ -749,9 +475,207 @@
     
     
     
-    <a href="/post/cutaneous-oncology-research-fellow/" >
-      <img src="/post/cutaneous-oncology-research-fellow/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_882166_150x0_resize_q90_lanczos.jpg" alt="">
+    <a href="/post/jupyter/" >
+      <img src="/post/jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_150x0_resize_lanczos_2.png" alt="">
     </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/getting-started/" >Academic: the website builder for Hugo</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Create a beautifully simple website in under 10 minutes.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/authors/admin/">David Michael Miller</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Apr 17, 2019
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/demo/">Demo</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/post/getting-started/" >
+      <img src="/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_150x0_resize_q90_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/2015-07-23-r-rmarkdown/" >Hello R Markdown</a>
+    </h3>
+
+    
+    <div class="article-style">
+      R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jul 23, 2015
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/r/">R</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
     
   </div>
 </div>
@@ -876,6 +800,16 @@
   
   <div class="container">
     <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+       &middot; 
+      <a href="/terms/">Terms</a>
+    
+  </p>
   
 
   <p class="powered-by">

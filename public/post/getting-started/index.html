@@ -91,42 +91,6 @@
 
 
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153183352-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           document.location = url;
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target);  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-153183352-1', {});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
   
 
 
@@ -147,9 +111,9 @@
   
   <meta property="twitter:card" content="summary_large_image">
   
-  <meta property="og:site_name" content="The Miller Lab">
+  <meta property="og:site_name" content="Merkel Cell Carcinoma">
   <meta property="og:url" content="/post/getting-started/">
-  <meta property="og:title" content="Academic: the website builder for Hugo | The Miller Lab">
+  <meta property="og:title" content="Academic: the website builder for Hugo | Merkel Cell Carcinoma">
   <meta property="og:description" content="Create a beautifully simple website in under 10 minutes."><meta property="og:image" content="/post/getting-started/featured.jpg">
   <meta property="twitter:image" content="/post/getting-started/featured.jpg"><meta property="og:locale" content="en-us">
   
@@ -200,10 +164,10 @@
   
   "publisher": {
     "@type": "Organization",
-    "name": "The Miller Lab",
+    "name": "Merkel Cell Carcinoma",
     "logo": {
       "@type": "ImageObject",
-      "url": "/img/MLab_logo_5.png"
+      "url": "/img/icon-512.png"
     }
   },
   "description": "Create a beautifully simple website in under 10 minutes."
@@ -224,7 +188,7 @@
 
 
 
-  <title>Academic: the website builder for Hugo | The Miller Lab</title>
+  <title>Academic: the website builder for Hugo | Merkel Cell Carcinoma</title>
 
 </head>
 
@@ -267,7 +231,7 @@
   <div class="container">
 
     
-      <a class="navbar-brand" href="/"><img src="/img/MLab_logo_5.png" alt="The Miller Lab"></a>
+      <a class="navbar-brand" href="/">Merkel Cell Carcinoma</a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -306,145 +270,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#people"><span>Meet the Team</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>Research</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#talks"><span>Presentations</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#publications"><span>Publications</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/files/DMM_CV.pdf"><span>CV</span></a>
+          <a class="nav-link " href="/#people"><span>MCC Experts</span></a>
         </li>
 
         
@@ -589,7 +415,7 @@
 
 <div class="article-header container featured-image-wrapper mt-4 mb-4" style="max-width: 1200px; max-height: 675px;">
   <div style="position: relative">
-    <img src="/post/getting-started/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_882166_1200x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
+    <img src="/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_1200x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
     <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/CpkOjOcXdUY" target="_blank"><strong>Unsplash</strong></a></span>
   </div>
 </div>
@@ -722,7 +548,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href=""></a>
+  <a class="badge badge-light" href="/tags/academic/">Academic</a>
   
 </div>
 
