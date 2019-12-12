@@ -3,7 +3,7 @@
 widget = "about"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = false  # Activate this widget? true/false
-weight = 10  # Order that this section will appear in.
+weight = 30  # Order that this section will appear in.
 
 title = "Overview of Squamous Cell Carcinoma"
 
@@ -27,7 +27,7 @@ Squamous cell carcinoma is diagnosed with a biopsy. A biopsy is a sample of tiss
 You should see your doctor if you have any new or changing marks on your skin. Be aware of any lumps, growths, moles, or other abnormal areas on your skin. Watch for new spots or areas that are changing. This can include skin marks that grow larger, bleed, crust, or itch.  
 Early diagnosis and treatment is important to prevent the cancer from spreading. Your healthcare provider may recommend you do a skin self-exam once a month or more.
 
-# What are the risk factors for Squamous Cell Darcinoma?
+# What are the risk factors for Squamous Cell Carcinoma?
 
 The known risk factors for Squamous Cell Carcinoma include:
 * Exposure to UV rays. Like many other types of skin cancer, the risk of CSCC is higher in people who have been exposed to a lot of UV (ultraviolet) rays from the sun or from other sources like tanning beds. People who are treated for psoriasis with UV rays may also have a higher risk.  

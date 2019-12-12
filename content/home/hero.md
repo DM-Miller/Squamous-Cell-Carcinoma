@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Squmaous Cell Carcinoma"
+title = "Squmaous Cell Carcinoma Specialists"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 # hero_media = ""
@@ -24,7 +24,7 @@ title = "Squmaous Cell Carcinoma"
   gradient_end = "#2b94c3"
   
 # Background image.
-image = "96_well_plate.jpg"  
+image = "DNA_lamp.jpg"  
 # Name of image in `static/img/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
